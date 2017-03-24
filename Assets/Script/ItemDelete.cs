@@ -11,9 +11,8 @@ public class ItemDelete : MonoBehaviour {
 	void Start () {
 
         unitychan = GameObject.Find("unitychan");
-        difference = unitychan.transform.position.z - this.transform.position.z;
+        this.difference = unitychan.transform.position.z - this.transform.position.z;
 
-        //this.difference = unitychan.transform.position.z - this.transform.position.z;
 	}
 	
 	// Update is called once per frame

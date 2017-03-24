@@ -27,7 +27,7 @@ public class ItemDelete : MonoBehaviour {
     {
         
         //トリガーオブジェクトがぶつかった時、クルマ、コーン、コインなら削除する
-        if (ther.tag == "CarTag" || ther.tag == "TraficConeTag" || ther.tag == "CoinTag")
+        if (ther.tag == "CarTag" || ther.tag == "TrafficConeTag" || ther.tag == "CoinTag")
         {
             Destroy(ther.gameObject);
         }
